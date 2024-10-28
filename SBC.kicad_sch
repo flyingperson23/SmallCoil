@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0d11d571-0d99-4163-86b2-d614185aa6ee")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 16.51)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8da0b0c4-5f4a-477c-938e-c6e388a73516")
+		(property "Sheetname" "Bridge"
+			(at 16.51 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bridge.kicad_sch"
+			(at 16.51 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SBC"
+				(path "/0d11d571-0d99-4163-86b2-d614185aa6ee"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 16.51)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99f851ad-452d-4ae8-86e3-b5896708120e")
+		(property "Sheetname" "DRSSTC Driver"
+			(at 45.72 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 45.72 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SBC"
+				(path "/0d11d571-0d99-4163-86b2-d614185aa6ee"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 16.51)
+		(size 27.94 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eea072ad-f235-4236-882e-1716ed30bf4d")
+		(property "Sheetname" "PFC"
+			(at 73.66 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pfc.kicad_sch"
+			(at 73.66 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SBC"
+				(path "/0d11d571-0d99-4163-86b2-d614185aa6ee"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
